@@ -319,6 +319,7 @@ NAMES = {
     '.csslintrc': EXTENSIONS['json'] | {'csslintrc'},
     '.dockerignore': {'text', 'dockerignore'},
     '.editorconfig': {'text', 'editorconfig'},
+    '.envrc': EXTENSIONS['bash'],
     '.flake8': EXTENSIONS['ini'] | {'flake8'},
     '.gitattributes': {'text', 'gitattributes'},
     '.gitconfig': EXTENSIONS['ini'] | {'gitconfig'},
